@@ -7,8 +7,8 @@ def number(num):
         raise ValueError("Number must be an integer")
 
     #test if the number is positive
-    if num < 1:
-        raise ValueError("Must enter a positive number")
+    # if num < 1:
+    #     raise ValueError("Must enter a positive number")
 
     #test if the number is even
     if num % 2 == 0:

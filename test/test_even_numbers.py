@@ -1,7 +1,7 @@
 import unittest
 from application import even_numbers
 
-class TestStringMethods(unittest.TestCase):
+class TestEvenNumbers(unittest.TestCase):
 
     def test_even(self):
         self.assertTrue(even_numbers.number(2))
